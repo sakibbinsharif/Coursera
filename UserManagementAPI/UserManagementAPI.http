@@ -1,0 +1,6 @@
+@UserManagementAPI_HostAddress = http://localhost:5197
+
+GET {{UserManagementAPI_HostAddress}}/api/User
+Accept: application/json
+
+###
