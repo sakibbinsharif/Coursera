@@ -11,7 +11,7 @@ namespace UserManagementAPI
 
             builder.Services.AddControllers();
             
-            builder.Services.AddOpenApi();
+            builder.Services.AddOpenApi(); 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddHttpLogging();
